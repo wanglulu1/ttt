@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hpeu.oa.dao.AdminDao">
+
+	<!-- 根据邮箱查询 -->
+	<select id="quiryEmail" resultType="com.hpeu.oa.entity.Admin">
+		select * from admin where email=#{email} and password=#{password}
+	</select>
+
+	<!-- 根据手机查询 -->
+	<select id="quiryPhone" resultType="com.hpeu.oa.entity.Admin">
+		select * from admin where phone=#{phone} and password=#{password}
+		
+	</select>
+
+	<!-- 根据工号查询 -->
+	<select id="quiryJobNumber" resultType="com.hpeu.oa.entity.Admin">
+		select * from admin where job_number=#{jobNumber} and password=#{password}
+	</select>
+
+
+</mapper>

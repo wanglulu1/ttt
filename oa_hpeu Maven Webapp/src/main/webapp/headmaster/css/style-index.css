@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+body {
+	background: url('../../headmaster/images/back/body-bg.png');
+}
+
+.top-all {
+	min-width: 1200px;
+	height: 40px;
+	background: #4D4943;
+}
+
+.top-all .top {
+	width: 1200px;
+	margin: auto;
+	color: #fff;
+	height: 40px;
+}
+
+.top-all .top h3 {
+	line-height: 40px;
+}
+
+.top-all .top div {
+	position: relative;
+	height: 40px;
+	width: 80px;
+}
+
+.top-all .top div dl dt, dd {
+	height: 40px;
+	width: 80px;
+}
+
+.top-all .top div dl dd {
+	display: none;
+}
+
+.top-all .top div dl {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 80px;
+	background: #4D4943;
+	z-index: 99;
+}
+
+.top-all .top div dl dt {
+	height: 28px;
+	cursor: pointer;
+	padding: 6px 0;
+}
+
+.top-all .top div dt i {
+	width: 20px;
+	height: 20px;
+	background: url('../../headmaster/images/back/bottom.png') no-repeat 0 0/cover;
+	display: block;
+	margin-top: 12px;
+}
+
+.top-all .top div dd a {
+	width: 100%;
+	line-height: 40px;
+	text-align: center;
+	display: block;
+}
+
+.top-all .top div dd a:hover {
+	background: #eee;
+	color: #4D4943;
+}
+
+.top-all .top div:hover dd {
+	display: block;
+}
+
+.main-all {
+	min-width: 1200px;
+	margin-top: 20px;
+	background: #4D4943;
+}
+
+.main-all .main {
+	width: 1200px;
+	margin: auto;
+}
+
+.main-all .main .mi-l {
+	width: 20%;
+}
+
+.main-all .main .mi-r {
+	width: 79%;
+	margin-left: 1%;
+	min-height: 580px;
+}
+
+.main-all .main .mi-r iframe {
+	width: 100%;
+	min-height: 580px;
+	border: none;
+}
+
+.main-all .main .mi-l ul {
+	padding-top: 10px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.main-all .main .mi-l ul li {
+	line-height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 4px;
+	background: #F3F3F3;
+}
+
+.main-all .main .mi-l ul li.current {
+	background: #444953;
+}
+
+.main-all .main .mi-l ul li:hover {
+	background: #444953;
+}
+
+.main-all .main .mi-l ul li a {
+	display: block;
+	color: #000;
+	height: 100%;
+	width: 75%;
+	font-size: 16px;
+	padding-left: 3%;
+	float: left;
+}
+
+.main-all .main .mi-l ul li a.current {
+	color: #fff;
+}
+
+.main-all .main .mi-l ul li:hover a {
+	color: #fff;
+}
+
+.main-all .main .mi-l ul li i {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 5px;
+	float: left;
+}
+
+.main-all .main .mi-l ul li i.l-a {
+	background: url(../../headmaster/images/back/sy/tb-a.png) no-repeat 0 0/cover;
+}
+
+.main-all .main .mi-l ul li:hover i.l-a {
+	background: url(../../headmaster/images/back/sy/tb-a.png) no-repeat 0 0/cover;
+}
+
+.main-all .main .mi-l ul li i.l-b {
+	background: url(../../headmaster/images/back/sy/right.png) no-repeat 0 0/cover;
+}
+
+.main-all .main .mi-l ul li i.l-b.current-i {
+	background: url(../../headmaster/images/back/sy/right-a.png) no-repeat 0
+		0/cover;
+}
+
+.main-all .main .mi-l ul li:hover i.l-b {
+	background: url(../../headmaster/images/back/sy/right-a.png) no-repeat 0
+		0/cover;
+}
+
+.main-all .main .mi-l ul li i.l-c {
+	background: url(../../headmaster/images/back/sy/user.png) no-repeat 0 0/cover;
+}
+
+.main-all .main .mi-l ul li:hover i.l-c {
+	background: url(../../headmaster/images/back/sy/user-a.png) no-repeat 0
+		0/cover;
+}

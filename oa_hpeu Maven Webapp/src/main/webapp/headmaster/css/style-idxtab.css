@@ -1,0 +1,276 @@
+@charset "utf-8";
+
+.box-tab {
+	position: relative;
+	min-width: 900px;
+	padding: 1px;
+	border: 1px solid #ddd;
+	border-top: 40px solid #4B8DF8;
+	height: 450px;
+	box-shadow: 0 0 2px 2px #ccc;
+	overflow: auto;
+}
+
+.box-tab h3 {
+	position: absolute;
+	top: -30px;
+	left: 10px;
+	color: #fff;
+}
+
+.box-tab .box-tit {
+	height: 34px;
+}
+
+.box-tab .box-tit a {
+	display: block;
+	width: 100px;
+	line-height: 34px;
+	background: #35AA47;
+	border-radius: 4px;
+	float: left;
+	margin-left: 10px;
+}
+
+.box-tab .box-tit a span {
+	display: block;
+	float: left;
+	margin-left: 24px;
+}
+
+.box-tab .box-tit a i {
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-top: 7px;
+	background: url('../../headmaster/images/back/add.png') no-repeat center/cover;
+}
+
+.box-tab .box-tit button {
+	float: right;
+	border: none;
+	border-radius: 4px;
+	height: 34px;
+	padding: 0 4px;
+	color: #fff;
+	margin-right: 10px;
+	background: #444953;
+	outline: none;
+	cursor: pointer;
+}
+
+.box-tab .box-page {
+	position: relative;
+	margin-top: 10px;
+	height: 34px;
+}
+
+.box-tab .box-page dl {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 120px;
+	border: 1px solid #ccc;
+	background: #F3F3F3;
+}
+
+.box-tab .box-page span {
+	display: block;
+	float: left;
+	margin-left: 130px;
+	line-height: 34px;
+	width: 120px;
+}
+
+.box-tab .box-page dl dt i {
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin-top: 12px;
+	margin-right: 5px;
+	background: url('../../headmaster/images/back/caret-down.png') no-repeat
+		center/cover;
+	float: right;
+}
+
+.box-tab .box-page dl dd {
+	display: none;
+	width: 100%;
+}
+
+.box-tab .box-page dl dd.first {
+	position: relative;
+	border: 1px solid #ccc;
+	margin: 4px auto;
+	width: 90%;
+	line-height: 34px;
+}
+
+.box-tab .box-page dl dd.first input {
+	width: 100%;
+	height: 34px;
+	border: none;
+	background: #F3F3F3;
+	outline: none;
+	text-indent: 10px;
+}
+
+.box-tab .box-page dl dd.first i {
+	position: absolute;
+	top: 9px;
+	right: 5px;
+	width: 20px;
+	height: 20px;
+	background: url('../../headmaster/images/back/search.png') no-repeat
+		center/cover;
+	cursor: pointer;
+}
+
+.box-tab .box-page dl dt a {
+	line-height: 34px;
+	display: block;
+	color: #000;
+	text-indent: 10px;
+}
+
+.box-tab .box-page dl dd a {
+	line-height: 34px;
+	display: block;
+	color: #000;
+	text-indent: 10px;
+}
+
+.box-tab .box-page dl dt a:hover, dd a:hover {
+	background: #31B0D5;
+}
+
+.box-tab .box-page .box-seach {
+	position: relative;
+	float: right;
+	width: 220px;
+	line-height: 34px;
+	margin-right: 10px;
+}
+
+.box-tab .box-page .box-seach input {
+	width: 100%;
+	height: 32px;
+	border: 1px solid #ccc;
+	background: #F3F3F3;
+	text-indent: 10px;
+	outline: none;
+}
+
+.box-tab .box-page .box-seach a {
+	position: absolute;
+	top: 10px;
+	right: 0;
+	width: 20px;
+	height: 20px;
+	display: block;
+}
+
+.box-tab .box-page .box-seach a i {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url('../../headmaster/images/back/search.png') no-repeat
+		center/cover;
+}
+
+.box-tab table {
+	margin-top: 10px;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.box-tab table tr th {
+	background: #852B99;
+	color: #fff;
+}
+
+.box-tab table tr th, td {
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 24px;
+	padding: 7px 0;
+}
+
+.box-tab table tr td a {
+	display: block;
+	width: 100%;
+}
+
+.box-tab table tr a i {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: auto;
+}
+
+.box-tab table tr a i.i-mod {
+	background: url('../../headmaster/images/back/modify.png') no-repeat
+		center/cover;
+}
+
+.box-tab table tr a i.i-del {
+	background: url('../../headmaster/images/back/del.png') no-repeat center/cover;
+}
+
+.box-tab .box-pgno {
+	height: 34px;
+	width: 200px;
+	margin: 10px auto;
+	border: 1px solid #ccc;
+}
+
+.box-tab .box-pgno ul li {
+	float: left;
+	line-height: 34px;
+	width: 25%;
+}
+
+.box-tab .box-pgno ul li a {
+	display: block;
+	height: 27px;
+	color: #000;
+	line-height: 34px;
+	padding-top: 7px;
+}
+
+.box-tab .box-pgno ul li a.pg-prive i {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-left: 14px;
+	background: url('../../headmaster/images/back/chevron-left.png')
+		no-repeat center/cover;
+}
+
+.box-tab .box-pgno ul li a.pg-next i {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-left: 14px;
+	background: url('../../headmaster/images/back/chevron-right.png')
+		no-repeat center/cover;
+}
+
+.box-tab .box-pgno ul li.l-first {
+	background: #35AA47;
+	text-align: center;
+	color: #fff;
+}
+
+.box-tab .box-pgno ul li.l-first a {
+	padding-top: 0;
+	height: 34px;
+}
+
+.box-tab .box-pgno ul li.l-thispg {
+	background: #f00;
+	color: #fff;
+	text-align: center;
+}
